@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    background-color: aqua;
+    margin:auto;
+    padding: 40px;
+    margin-top: 150px;
+    padding-top: 40px;
+    border: 15px double black;
+ }
+ .imagem1{
+    transition: all 0.5s;
+    border: 10px solid transparent;
+ }
+ .imagem1:hover
+ {
+border: 10px solid #136471;
+border-radius: 50%;
+-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0.5));
+filter: drop-shadow(15px 10px 5px(0,0,0.5));
+transform: rotateZ();
+}
